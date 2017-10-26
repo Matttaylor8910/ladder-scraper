@@ -1,7 +1,7 @@
 const http = require('http');
 const _ = require('lodash');
 const htmlparser = require('htmlparser2');
-var fs = require('fs');
+const fs = require('fs');
 
 function getData(url, isJson) {
   return new Promise(function (resolve, reject) {
